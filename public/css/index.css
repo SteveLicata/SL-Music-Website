@@ -1,0 +1,48 @@
+.sm-icons {
+  width: 50px;
+}
+
+@font-face {
+  font-family: '28 Days Later';
+  src: url('28 Days Later.ttf');
+}
+
+h1 {
+  /* font-family: '28 Days Later'; */
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: white;
+}
+
+h2 {
+  color: white;
+}
+
+h3 {
+  color: white;
+}
+
+p {
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  color: white;
+}
+
+.pageheader {
+  text-align: center;
+}
+
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.carouselimg {
+  width: 500px;
+}
