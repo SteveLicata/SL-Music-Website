@@ -51,6 +51,9 @@ get '/pastgigs' do
   erb :pastgigs
 end
 
+get '/pastupdates' do
+  erb :pastupdates
+end
 
 
 # sendgrib API email setup
