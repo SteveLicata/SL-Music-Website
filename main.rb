@@ -51,8 +51,8 @@ get '/pastgigs' do
   erb :pastgigs
 end
 
-get '/pastupdates' do
-  erb :pastupdates
+get '/updates' do
+  erb :updates
 end
 
 
