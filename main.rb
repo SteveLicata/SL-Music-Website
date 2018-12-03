@@ -23,6 +23,10 @@ get '/experience' do
   erb :experience
 end
 
+get '/fail' do
+  erb :fail
+end
+
 get '/finespun' do
   erb :finespun
 end
@@ -83,13 +87,10 @@ get '/home' do
 end # ends sendgrid email
 
 
-get '/contact_me' do
-  erb :contact_me
-end
 
 post '/send_dynamic_email' do
 
-  puts params.inspects
+  puts params.inspect
 
 #set variables to hold parameter data:
 @from_email = params[:from_email]

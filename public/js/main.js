@@ -34,13 +34,13 @@ window.onload = function() {
     }
   };
 
-  // subject
+  // subject validation
   function subjectValidation() {
     var subject = document.querySelector('#inputsubject').value;
     console.log("Subject: " + subject);
   };
 
-  // message
+  // message validation
   function messageValidation() {
     var message = document.querySelector('#inputmessage').value;
     console.log("Message: " + message);
@@ -55,8 +55,8 @@ window.onload = function() {
       return false;
     }
     else {
-      // if validation passes, user will be brought to new page with confirmation prompt
-      document.form.action = "actionpage.html"
+      // if validation passes, user will be brought to new page with confirmation prompt - see RUBY for this code
+      // document.form.action = "actionpage.html"
       return true;
     }
   };
