@@ -34,11 +34,13 @@ window.onload = function() {
     }
   };
 
+
   // subject validation
   function subjectValidation() {
     var subject = document.querySelector('#inputsubject').value;
     console.log("Subject: " + subject);
   };
+
 
   // message validation
   function messageValidation() {
