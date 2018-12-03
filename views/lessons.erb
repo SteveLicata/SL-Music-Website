@@ -150,7 +150,7 @@
       </p>
 
       <div class="formdiv">
-        <form method="POST" action="/send_dynamic_email">
+        <form method="POST" name="form" class="form" action="/send_dynamic_email" onsubmit="reurn formValidation();">
           <div class="row">
             <div class="col-xs-12 col-md-12">
               <center><label for="from_email">
@@ -159,7 +159,7 @@
                 </p>
               </label>
               <br>
-              <input type="text" name="from_email">
+              <input id="inputemail" type="text" name="from_email">
             </div>
           </div>
 
@@ -173,7 +173,7 @@
                 </p>
               </label>
               <br>
-              <input type="text" name="email_subject">
+              <input id="inputsubject" type="text" name="email_subject">
             </div>
           </div>
 
@@ -187,13 +187,13 @@
                 </p>
               </label>
               <br>
-              <textarea name="email_content" rows="8" cols="20"></textarea>
+              <textarea id="inputmessage" name="email_content" rows="8" cols="20"></textarea>
             </div>
           </div>
 
         <br>
 
-          <center><input type="submit" class="btn btn-primary">
+          <center><input id="submit" type="submit" class="btn btn-primary" value="Submit">
         </form>
       </div>
 
